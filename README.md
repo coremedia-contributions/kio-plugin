@@ -8,6 +8,10 @@ CoreMedia AI Service.
 
 The client part extends the CoreMedia Studio UI with new AI functions.
 
+## Requirements
+
+- CoreMedia Content Cloud **v12 2406.0.3**
+
 ## Installation
 
 To bundle this plugin with your application Docker images, you can provide plugin-descriptors in the
@@ -22,7 +26,7 @@ To extend the CoreMedia Blueprint workspace to bundle a plugin:
 4. Commit the changes.
 5. Build the `studio-server`and `studio-client` applications.
 
-You can read more info about Bundling CoreMedia Plugins [here](https://github.com/coremedia-contributions/coremedia-blueprints-workspace/tree/cmcc-12-2406.0.2/workspace-configuration/plugins).
+You can read more info about Bundling CoreMedia Plugins [here](https://github.com/coremedia-contributions/coremedia-blueprints-workspace/tree/cmcc-12-2406.0.3/workspace-configuration/plugins).
 
 ## Configuration
 
@@ -85,7 +89,7 @@ in the UI. But this typically does not affect the functionality.**
 Please note, the settings shown here are already included in the system (hard-coded).
 It is only necessary to create them if you want to change them at some point.
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <CMSettings folder="/Settings/Options/Settings" name="KIO" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
   <externalRefId></externalRefId>
@@ -98,7 +102,7 @@ It is only necessary to create them if you want to change them at some point.
           <Struct>
 <StringProperty Name="streamingUrl">https://kio.cloud.coremedia.io/api/v1/chat</StringProperty>
 <StringProperty Name="requestUrl">https://kio.cloud.coremedia.io/api/v1/chat/request</StringProperty>
-<StringProperty Name="authHeader">&lt;change-it&gt;</StringProperty>
+<StringProperty Name="authHeader">!CHANGE_CUSTOME_HEADER!</StringProperty>
           </Struct>
         </StructProperty>
         <StructListProperty Name="fields">
