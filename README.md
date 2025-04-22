@@ -6,8 +6,8 @@ below the path "/kio".
 
 ## Requirements
 
-- CoreMedia Content Cloud **v12 2406.0.3**
--  CoreMedia AI Service, see https://github.com/coremedia-contributions/kio-playground
+- CoreMedia Content Cloud **v12 2406.1.1** or later
+- CoreMedia AI Service, see https://github.com/coremedia-contributions/kio-playground
 
 ## Installation
 
