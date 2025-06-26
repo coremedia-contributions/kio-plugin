@@ -5,10 +5,9 @@
 <img src="https://img.shields.io/badge/CMCC%20Version->=2406.1.1-blue.svg">
 <img src="https://img.shields.io/badge/CMCC%20Version->=2412.0.1-blue.svg">
 
-The Studio-Plugin consists of a studio-client part. It extends the CoreMedia Studio UI with new AI
-functions and connects to the spring-ai-based CoreMedia AI Service running on the same domain as Studio
-below the path "/kio".
-See https://documentation.coremedia.com/how-to-guides/KIO for documentation and installation of KIO.
+The Studio plugin includes a client-side component that extends the CoreMedia Studio UI with new AI-powered features. 
+It connects to the CoreMedia AI Service, which is based on Spring AI and runs on the same domain as Studio, under the path /kio.
+For detailed documentation and installation instructions for KIO, see: https://documentation.coremedia.com/how-to-guides/KIO
 
 ## Requirements
 
