@@ -7,7 +7,9 @@
 
 The Studio plugin includes a client-side component that extends the CoreMedia Studio UI with new AI-powered features. 
 It connects to the CoreMedia AI Service, which is based on Spring AI and runs on the same domain as Studio, under the path /kio.
-For detailed documentation and installation instructions for KIO, see: https://documentation.coremedia.com/how-to-guides/KIO
+For detailed documentation and installation instructions for KIO, see: https://documentation.coremedia.com/how-to-guides/KIO.
+
+For release notes and updates about the CoreMedia AI Service, visit: https://github.com/coremedia-contributions/kio-backend/releases
 
 ## Requirements
 
