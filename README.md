@@ -14,5 +14,5 @@ For release notes and updates about the CoreMedia AI Service, visit: https://git
 ## Requirements
 
 - CoreMedia Content Cloud **v12 2406.1.1** or later
-- CoreMedia AI Service, see https://documentation.coremedia.com/how-to-guides/KIO/installing-kio/
+- CoreMedia AI Service, see [https://documentation.coremedia.com/features/KIO/installing-kio/](https://documentation.coremedia.com/features/KIO/installing-kio/)
 - A valid CoreMedia KIO license
